@@ -30,7 +30,7 @@ function App() {
           <a href="/team">Team </a>
           <a href="/login">Login </a>
         </nav>
-        <select value={lang} onChange={(e) => setLang(e.target.value)}>
+        <select className="text-black" value={lang} onChange={(e) => setLang(e.target.value)}>
           <option value="en">English</option>
           <option value="hi">Hindi</option>
           <option value="sp">Spanish</option>
