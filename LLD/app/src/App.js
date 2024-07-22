@@ -41,6 +41,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Body />}></Route>
+
+          {/* Route without path is called Empty-Route */}
           <Route element={<ProtectedRoute />}>
             <Route path="/team" element={<Team />}></Route>
           </Route>
