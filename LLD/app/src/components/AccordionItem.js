@@ -1,5 +1,4 @@
 const AccordionItem = ({ title, body, isOpen, setIsOpen }) => {
-  console.log("setIsOpen", setIsOpen);
   return (
     <div className="border border-black ">
       <div

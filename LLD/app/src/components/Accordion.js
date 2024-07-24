@@ -18,7 +18,6 @@ const data = [
 
 const Accordion = () => {
   const [openIndex, setOpenIndex] = useState(0);
-  console.log("openIndex", openIndex);
   return (
     <div className="w-[50%] m-auto mt-5">
       {data.map((item, index) => (
