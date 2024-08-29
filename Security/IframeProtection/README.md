@@ -1,0 +1,1 @@
+1. First run server1 by => npm run server1, and than run server2 by => npm run server2
