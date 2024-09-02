@@ -1,0 +1,1 @@
+An XSS (Cross-Site Scripting) attack is a type of security vulnerability that allows an attacker to inject malicious scripts into web pages viewed by other users. These scripts are often executed in the context of the victim's browser, enabling the attacker to steal sensitive data, such as cookies, session tokens, or other information stored by the browser on behalf of the user

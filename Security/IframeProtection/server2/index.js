@@ -6,6 +6,7 @@ const app = express();
 app.use((req, res, next) => {
   // Below line will tell that you can not allow your iframe to be embedded in different domains.
   // It will only allow to be embedded in the same domain.
+  // frame-ancestors specifies valid parents that may embed a page using iframe or object.
     res.setHeader('Content-Security-Policy', "frame-ancestors 'self'")
 
     res.cookie('sessionID', '12345', {
