@@ -33,6 +33,25 @@ module.exports = {
 <h4>Code Splitting</h4>
 <p>
 Code splitting is a technique used by bundlers to break down your code into smaller chunks or bundles, which can be loaded on demand. Instead of loading the entire JavaScript file upfront, code splitting allows the browser to load only the necessary parts of your application, improving performance, especially for large applications. This reduces initial load time and improves user experience by optimizing resource loading.</p>
+<p>
+How Bundle do Code-Splitting :-
+<ol>
+<li>
+Entry Point Splitting (Multiple Entry Files): You can specify multiple entry points, and the bundler will create separate bundles for each entry. This method is useful when you have different parts of the site that are independent of each other, like an admin panel and a user-facing site.
+<code>module.exports = {
+  entry: {
+    app: './src/app.js',
+    admin: './src/admin.js'
+  },
+  output: {
+    filename: '[name].bundle.js',  // 'app.bundle.js' and 'admin.bundle.js' will be created
+    path: __dirname + '/dist'
+  }
+};</code>
+</li>
+</ol>
+</p>
+
 </li>
 </ol>
 
