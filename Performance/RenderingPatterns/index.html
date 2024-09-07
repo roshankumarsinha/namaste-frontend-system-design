@@ -85,6 +85,32 @@ export default HomePage;
 
             </code>
         </li>
+        <li>
+            <h3>Static Site Generation (SSG)</h3>
+            <p><b>What is Static Site Generation (SSG)?</b></p>
+            <p>
+                Static Site Generation (SSG) is a method of building websites where the HTML for all the pages is generated at build time, rather than at runtime (when a user requests a page). This is in contrast to Server-Side Rendering (SSR), where pages are generated dynamically for each request, or Client-Side Rendering (CSR), where pages are generated in the browser.
+                
+                In SSG, the website is pre-built as static files, meaning that when users request a page, they receive a pre-generated HTML document almost instantly, without the need for real-time server-side processing. This results in faster performance and lower server load because the server is simply delivering static files (HTML, CSS, and JavaScript) rather than rendering them on each request.</p>
+            <p><b>How SSG Works (Step-by-Step)</b></p>
+            <ol>
+                <li><b>Build Process:</b>During the build process (typically done once during deployment), all pages of the site are pre-rendered. Data required to populate each page (e.g., from APIs, CMS, or databases) is fetched at build time, and the server generates static HTML files for each route or page.</li>
+                <li><b>Serving Pre-Built Pages:</b>Once the build process is complete, the website consists entirely of static assets (HTML, CSS, JavaScript, images, etc.). When users request a page, the server serves the pre-built HTML file for that page.</li>
+                <li><b>Client-Side JavaScript (Optional):</b>Although the initial content is static, you can still enhance your pages with client-side JavaScript to add dynamic functionality, similar to CSR. This process is often referred to as "rehydration" when using frameworks like React or Vue.</li>
+                <li><b>Hosting and CDN:</b>Since the site consists of static files, it can be deployed to a Content Delivery Network (CDN), which serves the files from servers closest to the user. This results in incredibly fast load times since there’s no need for server-side processing.</li>
+            </ol>
+            <p><b>Advantages of SSG:</b></p>
+            <ul>
+                <li><b>Fast Performance:</b>SSG websites are incredibly fast because the content is pre-built and served as static files. Users receive the content almost instantly, resulting in a smooth and responsive experience.</li>
+                <li><b>Low Server Load:</b>Since the server only serves static files, the load on the server is minimal. This makes SSG websites highly scalable and cost-effective, especially for high-traffic sites.</li>
+                <li><b>SEO Benefits:</b>SSG websites are SEO-friendly because search engines can easily crawl and index the static HTML content. This can improve search engine rankings and visibility.</li>
+            </ul>
+            <p><b>Disadvantages of SSG:</b></p>
+            <ul>
+                <li><b>Dynamic Content:</b>SSG is not suitable for websites with highly dynamic content that changes frequently or requires real-time updates. Since the content is pre-built, any changes to the data will require a rebuild of the site.</li>
+                <li><b>Build Time:</b>For large websites with many pages or complex data requirements, the build process can be time-consuming. This may impact the speed of updates or changes to the site.</li>
+            </ul>
+        </li>
     </ol>
 </body>
 </html>
