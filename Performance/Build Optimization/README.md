@@ -56,6 +56,13 @@ Dynamic Imports (Lazy Loading): Dynamic imports allow you to load JavaScript mod
 </p>
 
 </li>
+<li>
+<h4>Tree Shaking</h4>
+<p>
+Tree shaking is a powerful optimization technique used by modern JavaScript bundlers (like Webpack, Rollup, and Parcel) to remove unused or "dead" code from your final bundle. Its primary goal is to reduce the size of the JavaScript files sent to the browser by eliminating parts of the code that are never referenced or executed.</p>
+<p>How Tree Shaking Works : <br />
+Tree shaking relies on the static analysis of the code, particularly the ES6 (ES2015) module system (i.e., import and export). It determines which parts of the code are being used and which are not. Since ES6 modules are statically analyzable, the bundler can know at build time exactly which functions, variables, or classes are imported and used, allowing it to safely remove the unused parts.</p>
+</li>
 </ol>
 
 
