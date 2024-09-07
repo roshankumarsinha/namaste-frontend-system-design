@@ -30,6 +30,61 @@
                 <li><b>JavaScript Dependency:</b>Since CSR relies heavily on JavaScript, users with JavaScript disabled or unsupported in their browsers will not be able to access the site properly.</li>
             </ul>
         </li>
+        <li>
+            <p><b>What is Server-Side Rendering (SSR)?</b></p>
+            <p>Server-Side Rendering (SSR) is a technique in which the server generates the full HTML for a webpage on every request and sends it to the client (browser). This is in contrast to Client-Side Rendering (CSR), where the browser receives a barebones HTML file and dynamically renders the page using JavaScript.
+
+                In SSR, the initial HTML is pre-rendered on the server, meaning when the user requests a webpage, they receive a fully-formed HTML document. Once the HTML is loaded, client-side JavaScript may take over (similar to CSR), but the first load is faster because the user sees content immediately.</p>
+            <p><b>How SSR Works (Step-by-Step)</b></p>
+            <ol>
+                <li><b>Request from the Client:</b>A user navigates to a webpage (e.g., example.com/products). The browser sends a request to the server for that page.</li>
+                <li><b>Server Generates the HTML:</b>The server processes the request, often by querying a database or fetching data from an API.
+                    The server then dynamically generates the HTML page using a template engine or a server-side framework (like Next.js for React).</li>
+                <li><b>Response to the Client:</b>The server sends the fully rendered HTML to the browser, which displays the content to the user immediately.</li>
+                <li><b>Client-Side Hydration:</b>Once the HTML is loaded, client-side JavaScript (if present) may take over to enhance interactivity and dynamic content. This process is known as hydration, where the client-side code attaches event listeners and updates the DOM as needed.</li>
+            </ol>
+            <p><b>Advantages of SSR:</b></p>
+            <ul>
+                <li><b>Improved SEO:</b>One of the key benefits of SSR is improved SEO performance. Search engines can easily crawl and index the content of SSR websites since the initial HTML is fully formed and contains all the necessary information.</li>
+                <li><b>Faster Initial Load:</b>SSR typically results in faster initial load times compared to CSR. Since the server generates the full HTML, users see content immediately, reducing the "blank screen" effect often associated with CSR. SSR offers a much faster initial page load compared to CSR because the browser receives fully rendered HTML, which can be displayed immediately, even before JavaScript finishes loading.</li>
+            </ul>
+            <p><b>Disadvantages of SSR:</b></p>
+            <ul>
+                <li><b>Server Load:</b>SSR can put a heavier load on the server compared to CSR, as the server has to generate the full HTML for each request. This can impact server performance, especially under high traffic conditions.</li>
+                <li><b>Complexity:</b>Implementing SSR can be more complex than CSR, especially for developers who are more familiar with client-side development. SSR requires server-side rendering logic, which may involve additional setup and configuration.</li>
+            </ul>
+            <p><b>Example of SSR using NextJS</b></p>
+            <code>
+                // pages/index.js
+import React from 'react';
+
+// getServerSideProps is a special Next.js function that fetches data server-side
+export async function getServerSideProps() {
+  // Simulate a data fetch (API call)
+  const res = await fetch('https://api.example.com/products');
+  const products = await res.json();
+
+  // Return the data as props
+  return { props: { products } };
+}
+
+const HomePage = ({ products }) => {
+  return (
+    <div>
+      <h1>Products List (Server-Side Rendered)</h1>
+      <ul>
+        {products.map((product) => (
+          <li key={product.id}>{product.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default HomePage;
+
+            </code>
+        </li>
     </ol>
 </body>
 </html>
