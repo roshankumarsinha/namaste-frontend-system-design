@@ -47,7 +47,6 @@ In SSR, the initial HTML is pre-rendered on the server, meaning when the user re
                 <li><b>Complexity:</b>Implementing SSR can be more complex than CSR, especially for developers who are more familiar with client-side development. SSR requires server-side rendering logic, which may involve additional setup and configuration.</li>
             </ul>
             <p><b>Example of SSR using NextJS</b></p>
-            <code>
 ```
 import React from 'react';
 
@@ -76,6 +75,5 @@ const HomePage = ({ products }) => {
 
 export default HomePage;
 ```
-</code>
-        </li>
+</li>
     </ol>
