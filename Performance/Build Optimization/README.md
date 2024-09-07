@@ -38,6 +38,7 @@ How Bundle do Code-Splitting :-
 <ol>
 <li>
 Entry Point Splitting (Multiple Entry Files): You can specify multiple entry points, and the bundler will create separate bundles for each entry. This method is useful when you have different parts of the site that are independent of each other, like an admin panel and a user-facing site.
+<br />
 <code>module.exports = {
   entry: {
     app: './src/app.js',
@@ -49,6 +50,8 @@ Entry Point Splitting (Multiple Entry Files): You can specify multiple entry poi
   }
 };</code>
 </li>
+<li>
+Dynamic Imports (Lazy Loading): Dynamic imports allow you to load JavaScript modules asynchronously, meaning parts of your application are loaded only when needed. Most modern bundlers support dynamic imports through the import() function, which returns a Promise that resolves when the module is loaded.</li>
 </ol>
 </p>
 
