@@ -23,6 +23,7 @@
             </ul>
         </li>
         <li>
+        <h3>Server Side Rendering (SSR)</h3>
             <p><b>What is Server-Side Rendering (SSR)?</b></p>
             <p>Server-Side Rendering (SSR) is a technique in which the server generates the full HTML for a webpage on every request and sends it to the client (browser). This is in contrast to Client-Side Rendering (CSR), where the browser receives a barebones HTML file and dynamically renders the page using JavaScript.
 
@@ -62,14 +63,14 @@ export async function getServerSideProps() {
 
 const HomePage = ({ products }) => {
   return (
-    <div>
-      <h1>Products List (Server-Side Rendered)</h1>
-      <ul>
+    `<div>`
+      `<h1>Products List (Server-Side Rendered)</h1>`
+      `<ul>`
         {products.map((product) => (
-          <li key={product.id}>{product.name}</li>
+          `<li key={product.id}>{product.name}</li>`
         ))}
-      </ul>
-    </div>
+     ` </ul>`
+    `</div>`
   );
 };
 
