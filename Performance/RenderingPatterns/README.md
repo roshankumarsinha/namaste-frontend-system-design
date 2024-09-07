@@ -48,7 +48,7 @@ In SSR, the initial HTML is pre-rendered on the server, meaning when the user re
             </ul>
             <p><b>Example of SSR using NextJS</b></p>
             <code>
-                // pages/index.js
+```
 import React from 'react';
 
 // getServerSideProps is a special Next.js function that fetches data server-side
@@ -63,18 +63,19 @@ export async function getServerSideProps() {
 
 const HomePage = ({ products }) => {
   return (
-    `<div>`
-      `<h1>Products List (Server-Side Rendered)</h1>`
-      `<ul>`
+    <div>
+      <h1>Products List (Server-Side Rendered)</h1>
+      <ul>
         {products.map((product) => (
-          `<li key={product.id}>{product.name}</li>`
+          <li key={product.id}>{product.name}</li>
         ))}
-     ` </ul>`
-    `</div>`
+      </ul>
+    </div>
   );
 };
 
 export default HomePage;
-            </code>
+```
+</code>
         </li>
     </ol>
