@@ -76,7 +76,7 @@ Tree shaking relies on the static analysis of the code, particularly the ES6 (ES
 <li>
 <h4>Hot Module Replacement (HMR)</h4>
 <p>Hot Module Replacement (HMR) is a feature commonly found in modern JavaScript bundlers (such as Webpack, Parcel, and Vite) that allows a web application to update modules in real-time without needing to perform a full page reload. This makes development more efficient by enabling live updates to specific modules (e.g., JavaScript, CSS) while preserving the state of the application.</p>
-<p><b>How Hot Module Replacement Works<b>
+<p><b>How Hot Module Replacement Works</b>
 HMR works by keeping the current state of the application and only replacing the updated module or parts of the code. The browser doesn't refresh entirely; instead, only the code that has changed is replaced dynamically. This leads to faster feedback and smoother development cycles.</p>
 </li>
 </ol>
