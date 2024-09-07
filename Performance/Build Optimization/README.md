@@ -2,6 +2,7 @@ Small Example of webpack bundler -:
 
 // Create webpack.config.js file
 
+<code>
 module.exports = {
   entry: './src/index.js',  // entry point of the application
   output: {
@@ -22,5 +23,6 @@ module.exports = {
     ]
   }
 };
+</code>
 <hr />
 
