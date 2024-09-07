@@ -63,6 +63,12 @@ Tree shaking is a powerful optimization technique used by modern JavaScript bund
 <p>How Tree Shaking Works : <br />
 Tree shaking relies on the static analysis of the code, particularly the ES6 (ES2015) module system (i.e., import and export). It determines which parts of the code are being used and which are not. Since ES6 modules are statically analyzable, the bundler can know at build time exactly which functions, variables, or classes are imported and used, allowing it to safely remove the unused parts.</p>
 </li>
+<li>
+<h4>Minification</h4>
+<p>It reduces the file size of JavaScript, CSS, and other assets by removing unnecessary whitespace, comments, and shortening variable names. This results in faster downloads and quicker execution times.</p>
+<p>Terser is a popular JavaScript minifier used in modern bundlers like Webpack, Parcel, and Rollup. It is based on UglifyJS but with support for ES6+ syntax</p>
+<p>CSSNano is a tool for minifying CSS. It removes unnecessary whitespace, comments, and redundant properties in CSS.</p>
+</li>
 </ol>
 
 
