@@ -144,4 +144,11 @@ const PostPage = ({ post }) => {
 export default PostPage;
 ```
 </li>
+<li>
+            <h3>React Server Components (RSC)</h3>
+            <p><b>What are React Server Components (RSC)?</b></p>
+            <p>React Server Components (RSC) is a new rendering model introduced by React to allow developers to render components entirely on the server and send the resulting HTML (and minimal JavaScript) to the client. The key advantage of RSC is the ability to minimize the amount of JavaScript sent to the client, reducing the bundle size, and improving performance.
+
+RSC brings a hybrid approach where both server-side rendering (SSR) and client-side rendering (CSR) coexist, and it leverages the server to handle some of the logic that previously would be run on the client. This allows for improved performance, scalability, and the flexibility to offload resource-intensive tasks to the server.</p>
+        </li>
     </ol>
