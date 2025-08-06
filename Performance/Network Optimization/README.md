@@ -1,3 +1,6 @@
+<h1>
+    Notes on Performance and Network Optimization : <a href="https://heyashu.in/digital-garden/notes/front-end-design-system/how-to-do-network-optimization-in-web" target="_blank">Common Notes</a>
+</h1>
 <h2>Why CSS is called Render Blocking?</h2>
     <p>CSS is often referred to as "render-blocking" because it can delay the rendering of a webpage. Here’s a breakdown of why this happens:</p>
     <ol>
@@ -27,3 +30,30 @@
             </ul>
         </li>
     </ol>
+<h1>How can you Improve the Performance of Images?</h1>
+<ul>
+    <li>
+        ChatGpt notes : <a href="https://chatgpt.com/share/6893b0a7-4f20-8006-9ec9-7e90bdcb23f8" target="_blank">ChatGPT Notes</a>
+    </li>
+    <li>
+        You can read from here as well : <a href="https://web.dev/learn/performance/image-performance" target="_blank">Docs</a>
+    </li>
+</ul>
+<h1>Resource Hints and Preloading</h1>
+<ul>
+    <li>
+        ChatGpt notes : <a href="https://chatgpt.com/share/6893b8bc-509c-8006-8275-7a6ca2a49db2" target="_blank">ChatGPT Notes</a>
+    </li>
+    <li>
+        You can read from here as well : <a href="https://web.dev/learn/performance/resource-hints" target="_blank">Docs</a>
+    </li>
+</ul>
+<h1>Compression and Minification</h1>
+<ul>
+    <li>
+        ChatGpt notes : <a href="https://chatgpt.com/share/6893bbde-a8cc-8006-8405-e6f74ebc8a67" target="_blank">ChatGPT Notes</a>
+    </li>
+    <li>
+        You can read from here as well : <a href="https://web.dev/learn/performance/general-html-performance#compression" target="_blank">Docs</a>
+    </li>
+</ul>
