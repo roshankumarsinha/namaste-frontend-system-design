@@ -1,3 +1,9 @@
+<h1>
+  Performance and Build Optimization Commom Notes : <a href="https://heyashu.in/digital-garden/notes/front-end-design-system/build-optimization-techniques" target="_blank">Common Notes</a>
+</h1>
+<h2>
+  ChatGPT Notes : <a href="https://chatgpt.com/share/6893be11-05ec-8006-92d4-7e1144c62c85" target="_blank">ChatGPT Notes</a>
+</h2>
 <h2>Small Example of webpack bundler -:</h2>
 
 // Create webpack.config.js file

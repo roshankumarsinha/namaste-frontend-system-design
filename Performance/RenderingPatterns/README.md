@@ -1,4 +1,10 @@
 <h1>Rendering Pattern</h1>
+<h2>
+  Rendering Patterns Common Notes : <a href="https://heyashu.in/digital-garden/notes/front-end-design-system/web-rendering-patterns" target="_blank">Common Notes</a>
+</h2>
+<h2>
+  ChatGPT Notes : <a href="https://chatgpt.com/share/6893bdf0-fdbc-8006-a54f-7ac9a6e27ee8" target="_blank">ChatGPT Notes</a>
+</h2>
     <ol>
         <li>
             <h3>Client-Side Rendering (CSR)</h3>
