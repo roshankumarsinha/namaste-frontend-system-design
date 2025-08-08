@@ -33,7 +33,7 @@
 <h1>How can you Improve the Performance of Images?</h1>
 <ul>
     <li>
-        ChatGpt notes : <a href="https://chatgpt.com/share/6893b0a7-4f20-8006-9ec9-7e90bdcb23f8" target="_blank">ChatGPT Notes</a>
+        ChatGpt notes : <a href="https://chatgpt.com/share/6895b3f6-d8b0-8006-acd8-d324aeb53362" target="_blank">ChatGPT Notes</a>
     </li>
     <li>
         You can read from here as well : <a href="https://web.dev/learn/performance/image-performance" target="_blank">Docs</a>
