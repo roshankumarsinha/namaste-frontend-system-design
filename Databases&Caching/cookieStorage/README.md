@@ -83,6 +83,20 @@
       </li>
     </ul>
   </li>
+  <li>
+    Tracking & Analytics:
+    <ul>
+      <li>
+        Use case: Track user behavior across sessions and visits.
+      </li>
+      <li>
+        Cookies can store unique identifiers that help track users as they navigate a site.
+      </li>
+      <li>
+        This data can be used for analytics, personalization, and targeted advertising.
+      </li>
+    </ul>
+  </li>
 </ul>
 
 <h2>
