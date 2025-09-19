@@ -225,6 +225,9 @@
   <li>ACID Compliance: SQL databases adhere to ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure reliable transactions.</li>
   <li>Examples of SQL Databases: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.</li>
   <li>SQL database can scale vertically but it's tough to scale horizontally.</li>
+  <li>
+    Why horizontal scaling is tough in SQL databases? Because SQL follows ACID properties which ensures data consistency. So, when we have multiple nodes, it becomes difficult to maintain data consistency across all nodes. Having multiple nodes can be not reliable and it can lead to data loss and it won't follow ACID properties. SQL queries often involve complex joins across multiple tables, if those tables are stored on different nodes, it can lead to increased latency and reduced performance.
+  </li>
 </ul>
 <h6>When should you choose SQL database over NoSQL database in System Design?</h6>
 <ul>
