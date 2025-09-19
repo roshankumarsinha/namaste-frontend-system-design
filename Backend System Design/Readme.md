@@ -589,4 +589,5 @@
   <li>Uber – Live driver location and ride status updates.</li>
 </ul>
 <h2>URL Shortner (bit.ly, TinyURL, ZipZy.in, etc) - System Design</h2>
-<li><a href="https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/"></a></li>
+<li><a href="https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/">URL Shortner</a></li>
+<li><a href="https://chat.deepseek.com/share/27n62abi0evq18mct2">URL Shortner - Deepseek</a></li>
