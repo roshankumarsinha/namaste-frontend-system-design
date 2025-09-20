@@ -590,4 +590,26 @@
 </ul>
 <h2>URL Shortner (bit.ly, TinyURL, ZipZy.in, etc) - System Design</h2>
 <li><a href="https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/">URL Shortner</a></li>
-<li><a href="https://chat.deepseek.com/share/27n62abi0evq18mct2">URL Shortner - Deepseek</a></li>
+<li><a href="https://chat.deepseek.com/share/9tzcp4ml2pl6z78njl">URL Shortner - Deepseek</a></li>
+<h2>Design Dropbox - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/design-dropbox-a-system-design-interview-question/">Design Dropbox</a></li>
+<li><a href="https://chat.deepseek.com/share/r7o99244q0f5tjvmab">Design Dropbox - Deepseek</a></li>
+<h2>Designing Twitter - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/interview-experiences/design-twitter-a-system-design-interview-question/">Design Twitter</a></li>
+<li><a href="https://chat.deepseek.com/share/id9p0rn0b6wfyg7e37">Design Twitter - Deepseek</a></li>
+<h2>Netflix - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/system-design-netflix-a-complete-architecture/">Design Netflix</a></li>
+<li><a href="https://chat.deepseek.com/share/jc1koatmtkjswpsp6w">Design Netflix - Deepseek</a></li>
+<h2>Uber - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/system-design-of-uber-app-uber-system-architecture/">Design Uber</a></li>
+<li><a href="https://chat.deepseek.com/share/1wmk8g6bkmz83eb6nd">Design Uber - Deepseek</a></li>
+<h2>BookMyShow - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/design-bookmyshow-a-system-design-interview-question/">Design BookMyShow</a></li>
+<li><a href="https://chat.deepseek.com/share/s3o7r49g58p57ro0wj">Design BookMyShow - Deepseek</a></li>
+<h2>Facebook - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/desiging-facebook-messenger-system-design-interview/">Design Facebook</a></li>
+<li><a href="https://chat.deepseek.com/share/hsxz9haxm3tlw100h9">Design Facebook - Deepseek</a></li>
+<h2>WhatsApp - System Design</h2>
+<li><a href="https://www.geeksforgeeks.org/system-design/designing-whatsapp-messenger-system-design/">Design WhatsApp</a></li>
+<li><a href="https://chat.deepseek.com/share/zwkgnc2bvv0w2ujnlu">Design WhatsApp - Deepseek</a></li>
+<h2><a href="https://www.geeksforgeeks.org/system-design/most-commonly-asked-system-design-interview-problems-questions/">System Design Interview Questions</a></h2>
