@@ -1,7 +1,7 @@
 <h1>Backend System Design :</h1>
 <h2>
   <a href="https://www.geeksforgeeks.org/system-design/system-design-tutorial/">
-    ChatGPT Conversation - Backend System Design
+    Backend System Design
   </a>
 </h2>
 <h3>System Design Introduction - LLD & HLD</h3>
