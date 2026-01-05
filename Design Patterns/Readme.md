@@ -37,7 +37,8 @@
 
     // Export the SAME frozen instance
     export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
-    </code></pre>
+
+</code></pre>
 
   </li>
   <li>
