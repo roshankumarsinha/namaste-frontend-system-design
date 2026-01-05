@@ -35,25 +35,22 @@
         }
     };
 
-// Export the SAME frozen instance
-export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
-</code></pre>
+    // Export the SAME frozen instance
+    export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
+    </code></pre>
 
   </li>
   <li>
     Code Example (Object) :
     <pre><code>
     let shopping = [];   // Private data (not accessible directly)
-
     const ShoppingBag = {
         getBag: () => console.log(shopping),
         addItem: (item) => shopping.push(item),
     };
-
     // Export frozen object to prevent modification
     export const singletonShoppingObject = Object.freeze(ShoppingBag);
     </code></pre>
-
   </li>
   <li>Other Implementation link : <a href="https://github.com/ashishps1/awesome-low-level-design/blob/main/design-patterns/Javascript/Creational%20Pattern/Singleton%20Design%20%20Pattern/singleton.js">Here</a></li>
 </ul>
