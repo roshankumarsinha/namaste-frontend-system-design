@@ -12,7 +12,7 @@
   <li>Mostly used where we need Security and Consistency. Example Bank Locker System, where there is only ONE locker room in the bank. Everyone uses that same locker room. You cannot create your own locker room. You can only access the same one. That locker room = Singleton Object</li>
   <li>ChatGpt link : <a href="https://chatgpt.com/share/695b7da6-4710-8006-81c1-413f4498a9a0">ChatGPT Explanation</a></li>
   <li>
-    Code Example :
+    Code Example (Class) :
     <pre><code>
     let instance;
     class SingletonShoppingBag {
@@ -38,6 +38,21 @@
 // Export the SAME frozen instance
 export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
 </code></pre>
+
+  </li>
+  <li>
+    Code Example (Object) :
+    <pre><code>
+    let shopping = [];   // Private data (not accessible directly)
+
+    const ShoppingBag = {
+        getBag: () => console.log(shopping),
+        addItem: (item) => shopping.push(item),
+    };
+
+    // Export frozen object to prevent modification
+    export const singletonShoppingObject = Object.freeze(ShoppingBag);
+    </code></pre>
 
   </li>
 </ul>
