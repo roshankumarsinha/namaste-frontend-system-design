@@ -34,12 +34,11 @@ this.bag.push(item);
 getBag() {
 return this.bag;
 }
-}
+};
 
 // Export the SAME frozen instance
-export const singletonShoppingInstance = Object.freeze(
-new SingletonShoppingBag()
-);</code></pre>
+export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
+</code></pre>
 
   </li>
 </ul>
