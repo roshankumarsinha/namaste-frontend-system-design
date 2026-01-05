@@ -55,4 +55,5 @@ export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag(
     </code></pre>
 
   </li>
+  <li>Other Implementation link : <a href="https://github.com/ashishps1/awesome-low-level-design/blob/main/design-patterns/Javascript/Creational%20Pattern/Singleton%20Design%20%20Pattern/singleton.js">Here</a></li>
 </ul>
