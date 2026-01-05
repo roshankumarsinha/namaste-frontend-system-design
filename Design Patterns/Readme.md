@@ -13,28 +13,27 @@
   <li>ChatGpt link : <a href="https://chatgpt.com/share/695b7da6-4710-8006-81c1-413f4498a9a0">ChatGPT Explanation</a></li>
   <li>
     Code Example :
-    <pre><code>let instance;
-class SingletonShoppingBag {
-  constructor() {
-    // If instance already exists, just return it
-    if (instance) {
-      return instance;
-    }
+    <pre><code>
+    let instance;
+    class SingletonShoppingBag {
+        constructor() {
+            // If instance already exists, just return it
+            if (instance) {
+                return instance;
+            }
+            // First time creation
+            this.bag = [];
+            instance = this;
+        }
 
-    // First time creation
-    this.bag = [];
-    instance = this;
+        addItem(item) {
+            this.bag.push(item);
+        }
 
-}
-
-addItem(item) {
-this.bag.push(item);
-}
-
-getBag() {
-return this.bag;
-}
-};
+        getBag() {
+            return this.bag;
+        }
+    };
 
 // Export the SAME frozen instance
 export const singletonShoppingInstance = Object.freeze(new SingletonShoppingBag());
