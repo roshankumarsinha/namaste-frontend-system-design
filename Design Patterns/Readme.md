@@ -88,7 +88,7 @@
     <li>ChatGpt link : <a href="https://chatgpt.com/share/695b8df2-9374-8006-99f2-3592cae75fc2">ChatGPT Explanation</a></li>
 </ul>
 
-<h2>Structural Design Patterns</h2>
+<h2>Structural Design Patterns (ADFP)</h2>
 <h4>1. Adapter Pattern</h4>
 <ul>
     <li>Adapter Pattern = A bridge between two incompatible interfaces. It allows classes with incompatible interfaces to work together by converting the interface of one class into an interface expected by the clients.</li>
@@ -117,7 +117,7 @@
     <li>ChatGpt link : <a href="https://chatgpt.com/share/695b9e69-bc5c-8006-b484-8f60f003cb49">ChatGPT Explanation</a></li>
 </ul>
 
-<h2>Behavioral Design Patterns</h2>
+<h2>Behavioral Design Patterns(COS-M)</h2>
 <h4>1. Observer Pattern</h4>
 <ul>
     <li>Observer Pattern = A way for objects to subscribe to events or changes in another object. When the main object changes, it notifies all its subscribers (observers) about the change. Observer Pattern = “One thing changes → Many things automatically get notified.”</li>
