@@ -10,3 +10,40 @@
         </li>
         <li><b>Content Delivery Networks (CDNs) : </b>A Content Delivery Network (CDN) is a distributed network of servers that cache resources from your origin server, and in turn, serves them from edge servers that are physically closer to your users.</li>
     </ul>
+
+<h1>Performance Optimization</h1>
+<ul>
+<li>Network Optimization :
+<ul>
+    <li>For Critical Rendering Path, try to load minimum CSS and JS files at start/1st packet itself. Use CSS minification and async, defer attributes for JS files.</li>
+    <li>Use a Content Delivery Network (CDN) to serve static assets.</li>
+    <li>Use a Service Worker to cache resources and provide offline support.</li>
+    <li>To improve performance of images, use srcset and sizes attributes. Use picture element for responsive images. Use AVIF/WebP for better image quality and smaller file size. Use SVG/Base64 for small images/icons</li>
+    <li>Use Resource Hinting like preconnect, prefetch, preload, pre-render to improve the performance of your website. Use fetch-priority attribute to prioritize the loading of critical resources.</li>
+    <li>For compression and minification use Brotli, gzip, and other compression techniques to reduce the size of your website's resources.</li>
+</ul>
+</li>
+<li>Rendering Pattern :
+<ul>
+    <li>Use CSR, SSR, SSG, and RSC to improve the performance of your website.</li>
+</ul>
+</li>
+<li>Build Optimization :
+<ul>
+    <li>Use a bundler tool like Webpack, Vite, or Rollup to bundle and optimize your website's resources.</li>
+    <li>Bundler provides Code splitting : Entry point splitting, Dynamic import(Lazy loading), Routing code splitting.</li>
+    <li>Bundler does Tree Shaking to remove unused code and reduce the size of your website's resources. It works on ES6 import/export feature.</li>
+    <li>Bundler does Minification to reduce the size of your website's resources.</li>
+    <li>Bundler does compression to reduce the size of your website's resources.</li>
+    <li>Bundler does Hot Module Replacement (HMR) to improve the development experience.</li>
+</ul>
+</li>
+<li>Other Optimztion :
+<ul>
+    <li>Use useMemo and useCallback to optimize the performance of your React components.</li>
+    <li>Use Lazy loading to improve the performance of your React components.</li>
+    <li>Use Cache-control, Last-Modified, Expires, ETag to improve the performance of your website.</li>
+    <li>Use local storage and session storage to store data on the client side.</li>
+</ul>
+</li>
+</ul>
