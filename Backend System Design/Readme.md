@@ -222,6 +222,13 @@
 <li>
   Horizontal Scaling requires Load balancer so that traffic can be distributed evenly across multiple servers.
 </li>
+<h6>Difference between Horizontal and Vertical Scaling</h6>
+<ul>
+  <li>Load balancer is required in horizontal scaling but not in vertical scaling.</li>
+  <li>Horizontal scaling is Resilient and Fault tolerant because if one node fails, others can take over. Vertical scaling is not fault tolerant because if the single machine fails, the entire system goes down.</li>
+  <li>Horizontal scaling is little slow since it requires network communication between multiple nodes. Vertical scaling is faster since it is a single machine.</li>
+  <li>Horizontal scaling can have Data consistency issues since multiple nodes are involved. Vertical scaling does not have data consistency issues since it is a single machine.</li>
+<ul>
 <h2>SQL vs. NoSQL - Which Database to Choose in System Design?</h2>
 <h6>SQL Databases</h6>
 <ul>
